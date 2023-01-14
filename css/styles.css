@@ -249,7 +249,7 @@ small,
 }
 
 .medium {
-  font-size: 1.45em;
+  font-size: 1.25em;
 }
 
 mark,
@@ -5390,7 +5390,7 @@ fieldset:disabled .btn {
 
 .card-body-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
