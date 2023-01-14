@@ -667,6 +667,11 @@ progress {
   height: auto;
 }
 
+.img-self {
+  max-width: 22em;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
