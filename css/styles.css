@@ -670,6 +670,7 @@ progress {
 .img-self {
   max-width: 22em;
   height: auto;
+  margin-bottom: 80px;
 }
 
 .img-thumbnail {
@@ -12677,7 +12678,8 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  /* background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
+  background-color: black;
 }
 
 .about-section p {
@@ -12685,12 +12687,27 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 0;
 }
 
 .projects-section .featured-text {
   padding: 2rem;
 }
+
+.features-list {
+  text-align: start;
+}
+
+.project-title {
+  text-decoration: none;
+  width: fit-content;
+  margin: auto;
+
+}
+
+/* .project-title:hover {
+  text-decoration: underline;
+} */
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
@@ -12737,7 +12754,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding: 20rem 0 20rem 0;
 }
 
 .contact-section .card {
